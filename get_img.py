@@ -5,10 +5,19 @@
 ### Update At 2024.06.25
 
 import os
+import argparse
+
+### Parameters
+parser = argparse.ArgumentParser(description='Protein Ligand Interaction 2D Diagram')
+parser.add_argument('--age', type=int, default=20, help='작성작의 나이를 입력하세요')
+parser.add_argument('--name', type=str, default='홍길동')
+
+
 
 ### Process
 ### Create PDB code in API -> Images Generation -> Get Images
 ### LIG_chain_num : If this ligand text is different from each pdb, please check algorithm and update.
+
 
 ### input pdb directory
 pdb_dir = "/workspace/pdb"
