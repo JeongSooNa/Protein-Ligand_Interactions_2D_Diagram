@@ -10,7 +10,17 @@ Update At : 2024.06.25
 
 ---
 
+### Installization
+
 ### Usage
+
+- run main.py
+```sh
+python main.py --pdb test.pdb --lig UNK_A_0 --output_dir 2d_diagram/
+```
+
+
+# REST API Usage Documentation : PoseView : 2D-Interaction diagrams
 
 #### Create PoseView Job
 Creates a new PoseView job passing json data in body and returns json data about the location of the results.
